@@ -33,6 +33,7 @@ A. Halaman Utama (Navbar)
 	<br>
 	4. Bantuan & support
 	<br>
+	<br>
 B. Halaman Login Sekolah
 <br>
 	1. Login
@@ -62,6 +63,7 @@ B. Halaman Login Sekolah
 	11. Logout(di sidebar)
 	<br>
 	12. pemberitahuan (di navbar)
+<br>
 <br>
 C. Halaman Login Pihak Orang Tua
 <br>
