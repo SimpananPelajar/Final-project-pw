@@ -1,4 +1,4 @@
-# SimpananPelajar
+# Simpanan Pelajar
 
 Nama Kelompok :
 1. Ridho Aryo Bimo (16.11.0344)
