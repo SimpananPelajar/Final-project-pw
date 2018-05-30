@@ -7,9 +7,12 @@ Nama Kelompok :
 4. Tiara Widyakunthaningrum (16.11.0385)
 5. Murniandhany A. (16.11.0361)
 <br>
+<br>
 Nama Startup : Simpanan Pelajar
 <br>
+<br>
 Kategori : Finance(Keuangan)
+<br>
 <br>
 Deskripsi : Simpanan pelajar adalah aplikasi berbasis web dimana berfungsi sebagai tabungan 
 untuk para siswa yang menanbung setiap harinya di sekolah.
@@ -18,6 +21,7 @@ berkala sehingga lebih efisien dan dapat di lihat oleh orang tua.
 Output yang dapat dilihat oraang tua berupa laporan yang dapat diakses setiap
 waktu agar mengetahui apakah nominal yang ditabung anak sesuai atau tidak dan apa saja
 pengeluarannya.
+<br>
 <br>
 A. Halaman Utama (Navbar)
 	<br>
@@ -52,16 +56,28 @@ B. Halaman Login Sekolah
 	8. pengeluaran
 	<br>
 	9. kontak
+	<br>
 	10. Setting
+	<br>
 	11. Logout(di sidebar)
+	<br>
 	12. pemberitahuan (di navbar)
-
+<br>
 C. Halaman Login Pihak Orang Tua
+<br>
 	1. Login
+	<br>
 	2. Profil
+	<br>
 	3. laporan
+	<br>
 		-pemasukan
+		<br>
 		-pengeluaran
+		<br>
 	4. Kontak
+	<br>
 	5. Setting
+	<br>
 	6. Logout(di sidebar)
+	<br>
