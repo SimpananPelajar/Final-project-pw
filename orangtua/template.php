@@ -80,7 +80,7 @@
 					</div>
 				</form>
 				<ul class="sidebar-menu" data-widget="tree">
-					<li class="header">MAIN NAVIGATION</li>
+					<li class="header">MENU</li>
 					<li class="active">
 						<a href="dashboard.php"><i class="fa fa-home"></i> <span>Dashbooard</span></a>
 					</li>
