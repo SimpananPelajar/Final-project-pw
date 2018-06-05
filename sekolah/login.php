@@ -16,12 +16,13 @@
 	<div class="login-box">
 		<div class="login-logo">
 			<a href="login.php"><b>SIM</b>PEL</a>
-			 <!-- <a href=""><img src="assets/dist/img/avatar.png"></a> -->
+			 <!-- <a href=""><img src="assets/dist/img/logo3.jpg"></a> -->
 		</div>
 		<div class="login-box-body">
 			<p class="login-box-msg">Masukkan email dan password anda</p>
-
+			<a href=""><img src="assets/dist/img/logo3.jpg" style="width: 100%; height: 100%"></a>
 			<form action="dashboard.php" method="post">
+				<br>
 				<div class="form-group has-feedback">
 					<input type="email" class="form-control" placeholder="Email" required>
 					<span class="glyphicon glyphicon-envelope form-control-feedback"></span>
