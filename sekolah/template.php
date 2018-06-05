@@ -35,13 +35,13 @@
 						<li class="dropdown user user-menu">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 								<img src="assets/dist/img/photo1.png" class="user-image" alt="User Image">
-								<span class="hidden-xs">Admin</span>
+								<span class="hidden-xs">Ridho Aryo Bimo</span>
 							</a>
 							<ul class="dropdown-menu">
 								<li class="user-header">
 									<img src="assets/dist/img/photo1.png" class="img-circle" alt="User Image">
 									<p>
-										Admin
+										Ridho Aryo Bimo
 										<small>Login Terakhir : 27/05/2018 - 13:17:00</small>
 									</p>
 								</li>
@@ -66,7 +66,7 @@
 						<img src="assets/dist/img/photo1.png" class="img-circle" alt="User Image">
 					</div>
 					<div class="pull-left info">
-						<p>Admin</p>
+						<p>Ridho Aryo Bimo</p>
 						<a href="#"><i class="fa fa-circle text-success"></i> Online</a>
 					</div>
 				</div>
