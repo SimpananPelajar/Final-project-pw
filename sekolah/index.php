@@ -42,13 +42,13 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-					<img src="assets/dist/img/photo1.png" alt="..." style="width: 100%; height: 500px">
+					<img src="assets/dist/img/logo3.jpg" alt="..." style="width: 100%; height: 500px">
 				</div>
 				<div class="item">
-					<img src="assets/dist/img/photo2.png" alt="..." style="width: 100%; height: 500px">
+					<img src="assets/dist/img/logo2.png" alt="..." style="width: 100%; height: 500px">
 				</div>
 				<div class="item">
-					<img src="assets/dist/img/photo3.jpg" alt="..." style="width: 100%; height: 500px">
+					<img src="assets/dist/img/logo1.jpg" alt="..." style="width: 100%; height: 500px">
 				</div>
 			</div>
 
