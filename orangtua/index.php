@@ -24,7 +24,7 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li class="active"><a href="index.php">Beranda <span class="sr-only">(current)</span></a></li>
 					<li><a href="tentang_kami.php">Tentang Kami</a></li>
-					<li><a href="hubungi_kami.php">Hubungi Kami</a></li>
+					<li><a href="hubungi_kami.php">Bantuan</a></li>
 					<li><a href="login.php">Login</a></li>
 				</ul>
 			</div>
