@@ -68,13 +68,13 @@ a:hover {
 }
 
 #breadcrumb {
-	background-color: #1BBD36;
+	background-color: #3C8DBC;
 	margin-top: -20px;
 }
 
 .breadcrumb { 
   list-style: none;
-  background-color: #1BBD36;
+  background-color: #3C8DBC;
   border-radius: 0px;
   padding:3px 10px;
 }
@@ -530,7 +530,7 @@ a:hover {
 
 /* --- footer --- */
 .footer {
-	background:#3C8DBC;
+	background:#343a40;
 	padding:15px 22px;
 }
 
@@ -850,12 +850,12 @@ a.btn-primary:hover {
 }
 
 .blog_category li a:hover{
-  background:#1BBD36;
+  background:#3C8DBC;
   color: #fff;
 }
 
  .badge:before {
-  border-color: transparent transparent transparent #1BBD36;
+  border-color: transparent transparent transparent #3C8DBC;
   border-style: solid;
   border-width: 10px;
   bottom: -8px;
@@ -867,7 +867,7 @@ a.btn-primary:hover {
 }
 
 .badge {
-  background-color: #1BBD36;
+  background-color: #3C8DBC;
   border-radius: 5px;
   color: #fff;
   padding: 8px;
@@ -889,7 +889,7 @@ a.btn-primary:hover {
 }
 
 ul.blog_archieve li a:hover{
-	color:#1BBD36;
+	color:#3C8DBC;
 }
 
 .blog_archieve li:first-child {
@@ -1034,7 +1034,7 @@ ul.pagination > li > a {
   border-radius: 5px;
   font-size: 16px;
   padding: 5px 14px;
-  color:#1BBD36;
+  color:#3C8DBC;
 }
 
 ul.pagination > li > a i{
@@ -1044,8 +1044,8 @@ ul.pagination > li > a i{
 
 ul.pagination > li.active > a, 
 ul.pagination > li:hover > a {
-  background-color: #1BBD36 !important;
-  border-color: #1BBD36 !important;
+  background-color: #3C8DBC !important;
+  border-color: #3C8DBC !important;
   color: #fff;
 }
 
@@ -1085,7 +1085,7 @@ ul.sidebar-gallery {
 }
 
 .tag-cloud li a:hover{
-  background:#1BBD36;
+  background:#3C8DBC;
   color: #fff;  
 }
 
@@ -1161,5 +1161,5 @@ a.scrollup{
 a.scrollup:hover{
 	opacity:1;
 	background-color:#ddd;
-	color:#1BBD36;
+	color:#3C8DBC;
 }
