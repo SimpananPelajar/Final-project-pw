@@ -41,7 +41,7 @@ a:hover {
 
 .btn-primary {
   padding: 2px 5px;
-  background: #1BBD36;
+  background: #0dc4e0;
   color: #fff;
   border-radius: 50px;
   border:none;
@@ -103,7 +103,7 @@ a:hover {
 	font-weight:900;
 }
 .navbar-brand h1 span {
-	color: #1BBD36;
+	color: #3C8DBC;
 }
 
 .menu {
@@ -141,7 +141,7 @@ a:hover {
 	-o-transition: all 0.3s ease-in-out;
 }
 .nav-tabs > li > a.active {
-	color: #1BBD36;
+	color: #3C8DBC;
 	border-radius:0;
 	transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -282,7 +282,7 @@ a:hover {
 	margin-bottom:30px;
 	color:#fff;
 	padding:50px;
-	background:#1BBD36;
+	background:#3C8DBC;
 	border-radius:50%;
 }
 
@@ -291,12 +291,12 @@ a:hover {
 	margin-bottom:20px;
 	text-transform:uppercase;
 	font-size:18px;
-	color: #1BBD36;
+	color: #3C8DBC;
 }
 
 .hi-icon-effect i.fa:hover {
 	background:#fff;
-	color: #1BBD36;
+	color: #3C8DBC;
 	-webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;
@@ -530,7 +530,7 @@ a:hover {
 
 /* --- footer --- */
 .footer {
-	background:#1BBD36;
+	background:#3C8DBC;
 	padding:15px 22px;
 }
 
