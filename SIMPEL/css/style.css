@@ -41,7 +41,7 @@ a:hover {
 
 .btn-primary {
   padding: 2px 5px;
-  background: #0dc4e0;
+  background: #81b7f3;
   color: #fff;
   border-radius: 50px;
   border:none;
@@ -632,14 +632,14 @@ ul.social-network li a {
 }
 
 .media i {
-	color:#1BBD36;
+	color:#3C8DBC;
 	font-size:50px;
 }
 
 .media h4 {
 	font-size:20px;
 	font-weight:600;
-	color:#1BBD36;
+	color:#3C8DBC;
 }
 
 /* --- portfolio --- */
