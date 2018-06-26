@@ -6,7 +6,8 @@
   <title>Dashboard | Pengaturan</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <!-- Bootstrap 3.3.7 -->
+   <link rel="stylesheet" type="text/css" href="dist/css/style.css">
+     <!-- Bootstrap 3.3.7 -->
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
@@ -35,7 +36,7 @@
 <div class="wrapper">
     <header class="main-header">
       <!-- Logo -->
-      <a href="index.html" class="logo">
+      <a href="dashboard.html" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini"><b>S</b>PEL</span>
         <!-- logo for regular state and mobile devices -->
@@ -50,30 +51,77 @@
         <div class="navbar-custom-menu">
           <ul class="nav navbar-nav">
             <!-- Messages: style can be found in dropdown.less-->
-           <li class="dropdown messages-menu">
+            <li class="dropdown messages-menu">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                 <i class="fa fa-envelope-o"></i>
-                <span class="label label-success">1</span>
+                <span class="label label-success">4</span>
               </a>
               <ul class="dropdown-menu">
-                <li class="header">You have 1 messages</li>
+                <li class="header">You have 4 messages</li>
                 <li>
                   <!-- inner menu: contains the actual data -->
                   <ul class="menu">
                     <li><!-- start message -->
-                      <a href="#">
+                     <a href="#">
                         <div class="pull-left">
-                          <img src="dist/img/SMA3Y.jpg" class="img-circle" alt="User Image">
+                          <img src="dist/img/1.jpg" class="img-circle" alt="User Image">
                         </div>
                         <h4>
-                          SMAN 3 YOGYAKARTA
+                          Ibu Tina
                           <small><i class="fa fa-clock-o"></i> 5 mins</small>
                         </h4>
-                        <p>iya bu , bukanya hari kerja</p>
+                        <p>pak bagaimana penarikan nya?</p>
                       </a>
                     </li>
                     <!-- end message -->
-     
+                    <li>
+                      <a href="#">
+                        <div class="pull-left">
+                          <img src="dist/img/2.jpg" class="img-circle" alt="User Image">
+                        </div>
+                        <h4>
+                          Ibu Ira
+                          <small><i class="fa fa-clock-o"></i> 2 hours</small>
+                        </h4>
+                        <p>menabungnya setiap hari apa saja ya?</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="pull-left">
+                          <img src="dist/img/5.jpg" class="img-circle" alt="User Image">
+                        </div>
+                        <h4>
+                          Ibu Ari
+                          <small><i class="fa fa-clock-o"></i> Today</small>
+                        </h4>
+                        <p>besok buka banknya?</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="pull-left">
+                          <img src="dist/img/4.jpg" class="img-circle" alt="User Image">
+                        </div>
+                        <h4>
+                          Ibu Sarah
+                          <small><i class="fa fa-clock-o"></i> Yesterday</small>
+                        </h4>
+                        <p>bank nya buka jam berapa aja?</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="pull-left">
+                          <img src="dist/img/3.jpg" class="img-circle" alt="User Image">
+                        </div>
+                        <h4>
+                          Ibu Siti
+                          <small><i class="fa fa-clock-o"></i> 2 days</small>
+                        </h4>
+                        <p>test</p>
+                      </a>
+                    </li>
                   </ul>
                 </li>
                 <li class="footer"><a href="#">See All Messages</a></li>
@@ -83,16 +131,32 @@
             <li class="dropdown notifications-menu">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                 <i class="fa fa-bell-o"></i>
-                <span class="label label-warning">2</span>
+                <span class="label label-warning">10</span>
               </a>
               <ul class="dropdown-menu">
-                <li class="header">You have 2 notifications</li>
+                <li class="header">You have 10 notifications</li>
                 <li>
                   <!-- inner menu: contains the actual data -->
                   <ul class="menu">
                     <li>
                       <a href="#">
-                        <i class="fa fa-credit-card"></i> 2 Transaksi
+                        <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the
+                        page and may cause design problems
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-users text-red"></i> 5 new members joined
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-shopping-cart text-green"></i> 25 sales made
                       </a>
                     </li>
                     <li>
@@ -182,15 +246,15 @@
     <!-- User Account: style can be found in dropdown.less -->
     <li class="dropdown user user-menu">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-        <img src="dist/img/1.jpg" class="user-image" alt="User Image">
-        <span class="hidden-xs">Tiwi</span>
+        <img src="dist/img/SMA3Y.jpg" class="user-image" alt="User Image">
+        <span class="hidden-xs">SMAN 3 YOGYAKARTA</span>
       </a>
       <ul class="dropdown-menu">
         <!-- User image -->
         <li class="user-header">
-          <img src="dist/img/1.jpg" class="img-circle" alt="User Image">
+          <img src="dist/img/SMA3Y.jpg" class="img-circle" alt="User Image">
           <p>
-            Tiwi
+            SMAN 3 YOGYAKARTA
             <small>Login Terakhir : 27/05/2018 - 13:17:00</small>
           </p>
         </li>
@@ -216,10 +280,10 @@
   <section class="sidebar">
     <div class="user-panel">
       <div class="pull-left image">
-        <img src="dist/img/1.jpg" class="img-circle" alt="User Image">
+        <img src="dist/img/SMA3Y.jpg" class="img-circle" alt="User Image">
       </div>
       <div class="pull-left info">
-        <p>Tiwi</p>
+        <p>SMAN 3 YOGYAKARTA</p>
         <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
       </div>
     </div>
@@ -239,7 +303,33 @@
       <li class="active">
         <a href="dashboard.html"><i class="fa fa-home"></i> <span>Dashbooard</span></a>
       </li>
-    
+      <li class="treeview">
+        <a href="#">
+          <i class="fa fa-pie-chart"></i>
+          <span>Data Master</span>
+          <span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+          </span>
+        </a>
+        <ul class="treeview-menu">
+          <li><a href="orangtua.html"><i class="fa fa-circle-o"></i> Data Orang tua</a></li>
+          <li><a href="kelas.html"><i class="fa fa-circle-o"></i> Data Kelas</a></li>
+          <li><a href="siswa.html"><i class="fa fa-circle-o"></i> Data Siswa</a></li>
+        </ul>
+      </li>
+      <li class="treeview">
+        <a href="#">
+          <i class="fa fa-credit-card"></i>
+          <span>Transaksi</span>
+          <span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+          </span>
+        </a>
+        <ul class="treeview-menu">
+          <li><a href="setoran.html"><i class="fa fa-circle-o"></i> Setoran Tunai</a></li>
+          <li><a href="penarikan.html"><i class="fa fa-circle-o"></i> Penarikan Tunai</a></li>
+        </ul>
+      </li>
       <li>
         <a href="laporan.html"><i class="fa fa-print"></i> <span>Laporan</span></a>
       </li>
@@ -258,65 +348,107 @@
 <div class="content-wrapper">
 <section class="content-header">
   <h1>
-    Pengaturan
+    Profile
   </h1>
   <ol class="breadcrumb">
     <li><a href="dashboard.html"><i class="fa fa-home"></i> Home</a></li>
-    <li class="active">Pengaturan</li>
+    <li class="active">Profile</li>
   </ol>
 </section>
 <section class="content">
   <div class="row">
     <div class="col-xs-12">
-      <div class="box">
+       <div class="box">
         <div class="box-header"></div>
         <div class="box-body">
-              <div class="form-group">
-                  <label>Username</label>
-                   <input type="text" name="id" value="Indah123" class="form-control" placeholder="" readonly>
-              </div>
-              <div class="form-group">
-                  <label>No Rekening</label>
-                  <input type="text" name="No Rekening" value="20180501" class="form-control" placeholder="No Rekening" readonly>
-              </div>
-            <div class="form-group">
-                <label>Password</label>
-                <input type="text" name="password" value="handi321" class="form-control" placeholder="">
-            </div>
-            <div class="form-group">
-                <label>Nama Siswa</label>
-                <input type="text" name="Nama Siswa" value="Indah" class="form-control" placeholder="Nama Siswa">
-              </div>
-            <div class="form-group">
-                <label>Nomer Induk</label>
-                <input type="text" name="Nomer Induk" value="10117077" class="form-control" placeholder="Nomer Induk">
-            </div>
-            <div class="form-group">
-                <label>NISN</label>
-                <input type="text" name="NISN" value="9980890121" class="form-control" placeholder="NISN">
-            </div>
-            <div class="form-group">
-                <label>Nama Orang Tua</label>
-                <input type="text" name="Nama Kepala Sekolah" value="Tiwi" class="form-control" placeholder="Nama Kepala Sekolah">
-            </div>
-            <div class="form-group">
-                <label>Tempat dan Tanggal Lahir</label>
-                <input type="text" name="TTL" value="Yogyakarta, 20 Maret 2001" class="form-control" placeholder="TTL">
-            </div>
-            <div class="form-group">
-                <label>Alamat</label>
-                <textarea name="tentang" class="form-control" placeholder="Tentang">Jalan Mergasari no 30 Yogyakarta</textarea>
-            </div>
-            <div class="form-group">
-                <label>Telephone</label>
-                <input type="text" name="Telephone" value="082279312230" class="form-control" placeholder="Telephone">
-            </div>
-              <button type="submit" class="btn btn-primary">Simpan</button>
-        </div>
+          <div class="row">
+            <div class="col-lg-4 col-xlg-3 col-md-5">
+                <div class="card">
+                     <div class="card-body">
+                        <center class="m-t-30"> <img src="dist/img/SMA3Y.jpg" class="img-circle" width="150">
+                            <h4 class="card-title m-t-10">SMAN 3 YOGYAKARTA</h4>
+                               
+                        </center>
+                     </div>
+                <div>
+                  <hr> 
+                </div>
+                <div class="card-body"> 
+                      <small class="text-muted">Email </small>
+                      <h6>sman3yog@gmail.com</h6> 
+                      <small class="text-muted p-t-30 db">Telephone</small>
+                      <h6>082279312210</h6> <small class="text-muted p-t-30 db">Alamat</small>
+                      <h6>Jalan Jangkar Bumi Yogyakarta</h6>
+                      <div class="map-box">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470029.1604841957!2d72.29955005258641!3d23.019996818380896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C+Gujarat!5e0!3m2!1sen!2sin!4v1493204785508" width="100%" height="150" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                      </div> 
 
+                      <small class="text-muted p-t-30 db">Social Profile</small>
+                      <br>
+                      <button class="btn btn-circle btn-secondary"><i class="fa fa-facebook"></i></button>
+                      <button class="btn btn-circle btn-secondary"><i class="fa fa-twitter"></i></button>
+                      <button class="btn btn-circle btn-secondary"><i class="fa fa-youtube"></i></button>
+                </div>
+                </div>      
+            </div>
+
+            <div class="col-lg-8 col-xlg-9 col-md-7">
+              <div class="card">
+                <div class="card-body"> 
+                      <small class="text-muted p-t-30 db">Kode pos</small>
+                      <h6>15138</h6>
+                      <small class="text-muted p-t-30 db">Nama Kepala Sekolah</small>
+                      <h6>Ridho Aryo Bimo, S.Pd</h6>
+                      <small class="text-muted p-t-30 db">Situs</small>
+                      <h6>http://www.sman3-yog.sch.id/</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-xs-6">
+              <div class="small-box bg-aqua">
+                <div class="inner">
+                  <h3>Rp. 33.500.000</h3>
+                  <p>Total Saldo</p>
+                </div>
+                <div class="icon">
+                  <i class="fa fa-credit-card"></i>
+                </div>
+                <a href="#" class="small-box-footer">Detail <i class="fa fa-arrow-circle-right"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-46 col-xs-6">
+              <div class="small-box bg-green">
+                <div class="inner">
+                  <h3>Rp. 3.500.000</h3>
+                  <p>Saldo Hari Ini</p>
+                </div>
+                <div class="icon">
+                  <i class="fa fa-credit-card"></i>
+                </div>
+                <a href="#" class="small-box-footer">Detail <i class="fa fa-arrow-circle-right"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xs-6">
+              <div class="small-box bg-yellow">
+                <div class="inner">
+                  <h3>Rp. 25.000.000</h3>
+                  <p>Saldo Bulan Ini</p>
+                </div>
+                <div class="icon">
+                  <i class="fa fa-credit-card"></i>
+                </div>
+                <a href="#" class="small-box-footer">Detail <i class="fa fa-arrow-circle-right"></i></a>
+              </div>
+            </div>
+            
+                    
+              
+
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 </section>
 </div>
 
@@ -333,6 +465,7 @@
     </footer>
   </div>
   <!-- Footer -->
+</div>
 
 <!-- jQuery 3 -->
 <script src="bower_components/jquery/dist/jquery.min.js"></script>

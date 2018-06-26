@@ -6,6 +6,7 @@
   <title>Dashboard | Pengaturan</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" type="text/css" href="dist/css/style.css">
   <!-- Bootstrap 3.3.7 -->
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <!-- Font Awesome -->
@@ -258,65 +259,110 @@
 <div class="content-wrapper">
 <section class="content-header">
   <h1>
-    Pengaturan
+    Profile
   </h1>
   <ol class="breadcrumb">
     <li><a href="dashboard.html"><i class="fa fa-home"></i> Home</a></li>
-    <li class="active">Pengaturan</li>
+    <li class="active">Profile</li>
   </ol>
 </section>
 <section class="content">
   <div class="row">
     <div class="col-xs-12">
-      <div class="box">
+       <div class="box">
         <div class="box-header"></div>
         <div class="box-body">
-              <div class="form-group">
-                  <label>Username</label>
-                   <input type="text" name="id" value="Indah123" class="form-control" placeholder="" readonly>
-              </div>
-              <div class="form-group">
-                  <label>No Rekening</label>
-                  <input type="text" name="No Rekening" value="20180501" class="form-control" placeholder="No Rekening" readonly>
-              </div>
-            <div class="form-group">
-                <label>Password</label>
-                <input type="text" name="password" value="handi321" class="form-control" placeholder="">
+          <div class="row">
+            <div class="col-lg-4 col-xlg-3 col-md-5">
+                <div class="card">
+                     <div class="card-body">
+                        <center class="m-t-30"> <img src="dist/img/1.jpg" class="img-circle" width="150">
+                            <h4 class="card-title m-t-10">Indah</h4>
+                               
+                        </center>
+                     </div>
+                <div>
+                  <hr> 
+                </div>
+                <div class="card-body"> 
+                      <small class="text-muted">Email </small>
+                      <h6>hannagover@gmail.com</h6> 
+                      <small class="text-muted p-t-30 db">Telephone</small>
+                      <h6>082279312230</h6> <small class="text-muted p-t-30 db">Alamat</small>
+                      <h6>Jalan Mergasari no 30 Yogyakarta</h6>
+                      <div class="map-box">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470029.1604841957!2d72.29955005258641!3d23.019996818380896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C+Gujarat!5e0!3m2!1sen!2sin!4v1493204785508" width="100%" height="150" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                      </div> 
+                      <small class="text-muted p-t-30 db">Social Profile</small>
+                      <br>
+                      <button class="btn btn-circle btn-secondary"><i class="fa fa-facebook"></i></button>
+                      <button class="btn btn-circle btn-secondary"><i class="fa fa-twitter"></i></button>
+                      <button class="btn btn-circle btn-secondary"><i class="fa fa-youtube"></i></button>
+                </div>
+                </div>      
             </div>
-            <div class="form-group">
-                <label>Nama Siswa</label>
-                <input type="text" name="Nama Siswa" value="Indah" class="form-control" placeholder="Nama Siswa">
-              </div>
-            <div class="form-group">
-                <label>Nomer Induk</label>
-                <input type="text" name="Nomer Induk" value="10117077" class="form-control" placeholder="Nomer Induk">
-            </div>
-            <div class="form-group">
-                <label>NISN</label>
-                <input type="text" name="NISN" value="9980890121" class="form-control" placeholder="NISN">
-            </div>
-            <div class="form-group">
-                <label>Nama Orang Tua</label>
-                <input type="text" name="Nama Kepala Sekolah" value="Tiwi" class="form-control" placeholder="Nama Kepala Sekolah">
-            </div>
-            <div class="form-group">
-                <label>Tempat dan Tanggal Lahir</label>
-                <input type="text" name="TTL" value="Yogyakarta, 20 Maret 2001" class="form-control" placeholder="TTL">
-            </div>
-            <div class="form-group">
-                <label>Alamat</label>
-                <textarea name="tentang" class="form-control" placeholder="Tentang">Jalan Mergasari no 30 Yogyakarta</textarea>
-            </div>
-            <div class="form-group">
-                <label>Telephone</label>
-                <input type="text" name="Telephone" value="082279312230" class="form-control" placeholder="Telephone">
-            </div>
-              <button type="submit" class="btn btn-primary">Simpan</button>
-        </div>
 
+            <div class="col-lg-8 col-xlg-9 col-md-7">
+              <div class="card">
+                <div class="card-body"> 
+                      <small class="text-muted">No rekening </small>
+                      <h6>20180501</h6> 
+                      <small class="text-muted p-t-30 db">Nomer Induk</small>
+                      <h6>10117077</h6> 
+                      <small class="text-muted p-t-30 db">NISN</small>
+                      <h6>9980890121</h6>
+                      <small class="text-muted p-t-30 db">Nama Orang Tua</small>
+                      <h6>Tiwi</h6>
+                      <small class="text-muted p-t-30 db">Tempat dan Tanggal Lahir</small>
+                      <h6>Yogyakarta, 20 Maret 2001</h6>  
+                </div>
+              </div>
+            </div>
+
+            
+                <div class="col-lg-6 col-xs-6">
+                  <div class="small-box bg-aqua">
+                    <div class="inner">
+                      <h2>Rp. 1.000.000</h2>
+                      <p>Total Saldo</p>
+                    </div>
+                    <div class="icon">
+                      <i class="fa fa-credit-card"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">Detail <i class="fa fa-arrow-circle-right"></i></a>
+                  </div>
+                </div>
+                
+                <div class="col-lg-6 col-xs-6">
+                  <div class="small-box bg-red">
+                    <div class="inner">
+                      <h2>Rp. 0</h2>
+                      <p>Kredit</p>
+                    </div>
+                    <div class="icon">
+                      <i class="fa fa-credit-card"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">Detail <i class="fa fa-arrow-circle-right"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-xs-6">
+                  <div class="small-box bg-green">
+                    <div class="inner">
+                      <h2>Rp. 100.000</h2>
+                      <p>Debet Hari ini</p>
+                    </div>
+                    <div class="icon">
+                      <i class="fa fa-credit-card"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">Detail <i class="fa fa-arrow-circle-right"></i></a>
+                  </div>
+                </div>
+              
+
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 </section>
 </div>
 
