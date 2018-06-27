@@ -235,8 +235,8 @@ a:focus {
 }
 @media (max-width: 767px) {
   .main-header .navbar-right {
-    background-color: #00c0ef;
     float: none;
+    background-color: #3c8dbc;
   }
   .navbar-collapse .main-header .navbar-right {
     margin: 7.5px -15px;
