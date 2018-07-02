@@ -11,13 +11,16 @@
 	<link rel="stylesheet" href="assets/dist/css/AdminLTE.min.css">
 	<link rel="stylesheet" href="assets/plugins/iCheck/square/blue.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+	<link rel="stylesheet" type="text/css" href="animate.css">
 </head>
 <body class="hold-transition login-page">
 	<div class="login-box">
+		<div class="animated fadeInUp">
+			
 		
 		<div class="login-box-body">
 			<div class="login-logo">
-			<a href="login_ortu.html">Login Ortu <br><b>SIM</b>PEL</a>
+			<a href="login_ortu.html"><b>LOGIN</b> Orang Tua</a>
 			<br>
 			
 			 <!-- <a href=""><img src="assets/dist/img/logo3.jpg"></a> -->
@@ -25,28 +28,40 @@
 			<a href="../index.html"><img src="assets/dist/img/logo3.jpg" style="width: 100%; height: 100%"></a>
 			<br>
 			<br>
-			<p class="login-box-msg">Masukkan email dan kata sandi anda</p>
+			<p class="login-box-msg">Silahkan Login dengan menggunakan User ID dan Kata Sandi yang telah diberikan oleh Sekolah</p>
 			<form action="../orangtua/dashboard.html" method="post">
 				<div class="form-group has-feedback">
-					<input type="email" class="form-control" placeholder="User ID" required>
+					<input type="nama" class="form-control" placeholder="User ID" required>
 					<span class="fa fa-user form-control-feedback"></span>
 				</div>
 				<div class="form-group has-feedback">
 					<input type="password" class="form-control" placeholder="Kata Sandi" required>
 					<span class="glyphicon glyphicon-lock form-control-feedback"></span>
 				</div>
+
+		<div class="row">
+          <div class="col-10">
+            <div class="checkbox icheck">
+             <p><label>
+                 <input type="checkbox"> Ingat Saya
+              </label></p>
+            </div>
+          </div>
+      </div>
+
 				<div class="row">
 					<div class="col-xs-12">
-						<button type="submit" class="btn btn-primary btn-block btn-flat" style="width: 100%">Masuk Akun</button>
-						<a href="dashboard.html"></a>
+						<center><button type="submit" class="btn btn-primary btn-block btn-flat" style="width: 100%">Masuk Akun</button></center>
+						<a href="orangtua/dashboard.html"></a>
 					</div>
 				</div>
 			</form>
 			<div class="social-auth-links text-center">
 				<!-- <p>- OR -</p> -->
-				<a href="https://accounts.google.com/ServiceLogin/signinchooser?elo=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Masuk dengan
+				<a href="https://accounts.google.com/ServiceLogin/signinchooser?elo=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="btn btn-block btn-social btn-google btn-flat"><span class="fa fa-google-plus"></span>Masuk dengan 
 				Google+</a>
 			</div>
+			
 			<br>
 			<a href="login_sekolah.html">Login Sekolah</a>
 			<br>
@@ -54,6 +69,7 @@
 			<br> 
 		</div>
 	</div>
+</div>
 	<script src="assets/bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="assets/plugins/iCheck/icheck.min.js"></script>
