@@ -38,16 +38,29 @@
                                 <li role="presentation"><a href="fitur.html">Fitur</a></li>
                                 <li role="presentation"><a href="blog.html">Blog</a></li>
                                 <li role="presentation"><a href="kontak.html" class="active">Kontak</a></li>       
-                                <li>        
-                                    <a class="btn dropdown-toggle" data-toggle="dropdown">
+                               <li>     
+                                    <a class="btn dropdown-toggle" data-toggle="modal" data-target="#exampleModal">
                                         Login
-                                            <ul class="dropdown-menu btn">
-                                              <li><a href="login/login_ortu.html">Login Orangtua</a></li>
-                                              <li><a href="login/login_sekolah.html">Login Sekolah</a></li>
-                                             
-                                            </ul>
+
                                     </a>
-                                </li>   
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                          <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                              </div>
+                                              <div class="modal-body">
+                                                <a href="login/login_ortu.html" class="btn btn-primary">Orangtua</a>
+                                                <a href="login/login_sekolah.html" class="btn btn-primary">Sekolah</a>
+                                              </div>
+                                             
+                                            </div>
+                                          </div>
+                                    </div>
+                                </li>     
                             </ul>
                         </div>
                     </div>						
