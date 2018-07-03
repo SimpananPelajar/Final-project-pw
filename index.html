@@ -2,16 +2,17 @@
 <html lang="en">
   <head>
   
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <title>Home - SIMPEL</title>
 
     <!-- Bootstrap -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="dist/css/font-awesome.min.css">
 	<link rel="stylesheet" href="dist/css/animate.css">
-	<link href="dist/css/style.css" rel="stylesheet" />	
+	<link href="dist/css/style.css" rel="stylesheet" />
 	<script src="dist/js/js-3.1.1.min.js"></script>
     <script src="dist/js/bootstrap.min.3.7.7.js"></script>
+
   </head>
 
   <body>
@@ -39,27 +40,14 @@
 								<li role="presentation"><a href="blog.html">Blog</a></li>
 								<li role="presentation"><a href="kontak.html">Kontak</a></li>		
 								<li>		
-									<a class="btn dropdown-toggle" data-toggle="modal" data-target="#exampleModal">
+									<a class="btn dropdown-toggle btn-primary" data-toggle="dropdown">
 										Login
-
-									</a>
-									<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-										  <div class="modal-dialog" role="document">
-										    <div class="modal-content">
-										      <div class="modal-header">
-										        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
-										        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										          <span aria-hidden="true">&times;</span>
-										        </button>
-										      </div>
-										      <div class="modal-body">
-										        <a href="login/login_ortu.html" class="btn btn-primary">Orangtua</a>
-                                                <a href="login/login_sekolah.html" class="btn btn-primary">Sekolah</a>
-										      </div>
+										    <ul class="dropdown-menu btn">
+										     <li><a href="login/login_ortu.html">Login Orangtua</a></li>
+                                              <li><a href="login/login_sekolah.html">Login Sekolah</a></li>
 										     
-										    </div>
-										  </div>
-									</div>
+										    </ul>
+									</a>
 								</li>	
 							</ul>
 						</div>
@@ -165,6 +153,14 @@
 			</div>		
 		</div>
 	</footer>
-
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-2.1.1.min.js"></script>	
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>  
+	<script src="js/wow.min.js"></script>
+	<script src="js/functions.js"></script>
   </body>
 </html>
