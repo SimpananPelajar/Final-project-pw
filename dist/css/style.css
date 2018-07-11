@@ -40,7 +40,7 @@ a:hover {
 	}
 
 .btn-primary {
-  padding: 2px 5px;
+  
   background: #3c8dbc;
   color: #ffffff;
   border-radius: 50px;
@@ -1139,7 +1139,7 @@ textarea#message{
 }
 
 .btn-lg:hover {
-	color:#1BBD36;
+	color:#204d74;
 	background:#ddd;
 }
 
