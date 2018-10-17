@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Dashboard | Data Siswa</title>
+  <title>Dashboard | Rencana Kegiatan Sekolah</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -339,12 +339,12 @@
 <div class="content-wrapper">
 <section class="content-header">
   <h1>
-    Data Siswa
+    Rencana Kegiatan Sekolah
     <a href="#" data-toggle="modal" data-target="#tambah" class="btn btn-primary"><i class="fa fa-plus"></i> Tambah</a>
   </h1>
   <ol class="breadcrumb">
     <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
-    <li class="active">Data Siswa</li>
+    <li class="active">Rencana Kegiatan sekolah</li>
   </ol>
 </section>
 <section class="content">
@@ -372,12 +372,11 @@
               <tr>
                 <th>Aksi</th>
                 <th>No</th>
-                <th>ID</th>
-                <th>No Rekening</th>
-                <th>Nama</th>
-                <th>Kelas</th>
-                <th>Nama Orang Tua</th>
-                <th>Saldo</th>
+                <th>Tanggal</th>
+                <th>Nama Kegiatan</th>
+                <th>Tempat Kegiatan</th>
+                <th>Anggaran</th>
+                <th>Pembayaran</th>
               </tr>
             </thead>
             <tbody>
@@ -387,12 +386,15 @@
                   <a href="" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
                 </td>
                 <td>1</td>
-                <td>ID-0001</td>
-                <td>20180501</td>
-                <td>Ridho</td>
-                <td>XII-1</td>
-                <td>Martutik</td>
-                <td>Rp. 20.000.000</td>
+                <td>17 Agustus 2018</td>
+                <td><a href="Detailpembayaran.html">Lomba 17an</a></p></td>
+                <td>Lapangan Sekolah</td>
+                <td>Rp. 100.000</td>
+                <td><a href="#" data-toggle="modal" data-target="#Bayar" class="btn btn-primary"><i class="fa fa-money"></i> Bayar</a></td>
+                
+                
+            
+      
               </tr>
               <tr>
                 <td>
@@ -400,12 +402,13 @@
                   <a href="" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
                 </td>
                 <td>2</td>
-                <td>ID-0002</td>
-                <td>20180502</td>
-                <td>Aryo</td>
-                <td>XII-1</td>
-                <td>Agus</td>
-                <td>Rp. 10.000.000</td>
+                <td>20 Desember 2018</td>
+                <td><a href="Detailpembayaran.html">Study Tour</a></p></td>
+                <td>Universitas Amikom</td>
+                <td>Rp. 200.000</td>
+                <td><a href="#" data-toggle="modal" data-target="#Bayar" class="btn btn-primary"><i class="fa fa-money"></i> Bayar</a></td>
+
+
               </tr>
               <tr>
                 <td>
@@ -413,108 +416,20 @@
                   <a href="" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
                 </td>
                 <td>3</td>
-                <td>ID-0003</td>
-                <td>20180503</td>
-                <td>Bimo</td>
-                <td>XII-2</td>
-                <td>Budiono</td>
-                <td>Rp. 20.000.000</td>
+                <td>20 Juni 2019</td>
+                <td><a href="Detailpembayaran.html">Perpisahan</a></p></td>
+                <td>Grand Pacific Hall</td>
+                <td>Rp. 300.000</td>
+                <td><a href="#" data-toggle="modal" data-target="#Bayar" class="btn btn-primary"><i class="fa fa-money"></i> Bayar</a></td>
+                
+
+
               </tr>
               <tr>
-                <td>
-                  <a href="" class="btn btn-warning btn-xs"><i class="fa fa-pencil"></i></a>
-                  <a href="" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
-                </td>
-                <td>4</td>
-                <td>ID-0004</td>
-                <td>20180504</td>
-                <td>Rian</td>
-                <td>XII-3</td>
-                <td>Tina</td>
-                <td>Rp. 15.000.000</td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="" class="btn btn-warning btn-xs"><i class="fa fa-pencil"></i></a>
-                  <a href="" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
-                </td>
-                <td>5</td>
-                <td>ID-0005</td>
-                <td>20180505</td>
-                <td>Burhan</td>
-                <td>XII-3</td>
-                <td>Rudi</td>
-                <td>Rp. 7.000.000</td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="" class="btn btn-warning btn-xs"><i class="fa fa-pencil"></i></a>
-                  <a href="" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
-                </td>
-                <td>6</td>
-                <td>ID-0006</td>
-                <td>20180506</td>
-                <td>Mutia</td>
-                <td>XI-1</td>
-                <td>Sigit</td>
-                <td>Rp. 9.000.000</td>
-              </tr>
-               <tr>
-                <td>
-                  <a href="" class="btn btn-warning btn-xs"><i class="fa fa-pencil"></i></a>
-                  <a href="" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
-                </td>
-                <td>7</td>
-                <td>ID-0007</td>
-                <td>20180507</td>
-                <td>Zahra</td>
-                <td>XI-1</td>
-                <td>Sumayah</td>
-                <td>Rp. 2.000.000</td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="" class="btn btn-warning btn-xs"><i class="fa fa-pencil"></i></a>
-                  <a href="" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
-                </td>
-                <td>8</td>
-                <td>ID-0008</td>
-                <td>20180508</td>
-                <td>Ayu</td>
-                <td>XI-2</td>
-                <td>Martuti</td>
-                <td>Rp. 3.000.000</td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="" class="btn btn-warning btn-xs"><i class="fa fa-pencil"></i></a>
-                  <a href="" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
-                </td>
-                <td>9</td>
-                <td>ID-0009</td>
-                <td>20180509</td>
-                <td>Iren</td>
-                <td>XI-3</td>
-                <td>Lili</td>
-                <td>Rp. 12.000.000</td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="" class="btn btn-warning btn-xs"><i class="fa fa-pencil"></i></a>
-                  <a href="" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
-                </td>
-                <td>10</td>
-                <td>ID-0010</td>
-                <td>20180510</td>
-                <td>Indah</td>
-                <td>X-1</td>
-                <td>Tiwi</td>
-                <td>Rp. 1.000.000</td>
-              </tr>
-              
             </tbody>
           </table>
-           <div class="col-sm-12" align="right">
+
+          <div class="col-sm-12" align="right">
             <div class="dataTables_paginate paging_simple_numbers" id="example1_paginate">
               <ul class="pagination">
                 <li class="paginate_button previous disabled" id="example1_previous">
@@ -529,13 +444,53 @@
               </ul>
             </div>
           </div>
+          
         </div>
       </div>
     </div>
   </div>
 </section>
 </div>
+
+<!-- ID tambah -->
 <div class="modal fade" id="tambah">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Tambah Data Rencana Kegiatan Sekolah</h4>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>Tanggal</label>
+          <input type="text" name="nama" class="form-control" placeholder="17/08/2018">
+        </div>
+        <div class="form-group">
+          <label>Nama Kegiatan</label>
+          <input type="text" name="nama" class="form-control" placeholder="Study Tour">
+        </div>
+        <div class="form-group">
+          <label>Tempat</label>
+          <input type="text" name="nama" class="form-control" placeholder="Gedung">
+        </div>
+        <div class="form-group">
+          <label>Anggaran</label>
+          <input type="text" name="nama" class="form-control" placeholder="Rp. ">
+        </div>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary pull-left">Simpan</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Batal</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ID Tambah -->
+
+<!-- ID Bayar -->
+<div class="modal fade" id="Bayar">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -545,37 +500,26 @@
       </div>
       <div class="modal-body">
         <div class="form-group">
-          <label>ID Siswa</label>
-          <input type="text" name="id" value="ID-011" class="form-control" placeholder="ID Siswa" readonly>
+          <label>ID</label>
+          <input type="text" name="id" value="ID-011" class="form-control" placeholder="ID" readonly>
         </div>
         <div class="form-group">
-          <label>No Rekening</label>
-          <input type="text" name="No Rekening" value="20180501" class="form-control" placeholder="No Rekening" readonly>
+          <label>No Transaksi</label>
+          <input type="text" name="No Transaksi" value="TR-001" class="form-control" placeholder="No Transaksi" readonly>
         </div>
         <div class="form-group">
-          <label>Nama</label>
+          <label>Nama Siswa</label>
           <input type="text" name="nama" class="form-control" placeholder="Nama">
         </div>
+        
         <div class="form-group">
           <label>Kelas</label>
-          <select name="kelas" class="form-control">
-            <option value="">Pilih</option>
-            <option value="XII">XII-IPA</option>
-            <option value="XII">XII-IPS</option>
-            <option value="XI">XI-IPA</option>
-            <option value="XI">XI-IPS</option>
-            <option value="X">X-IPA</option>
-            <option value="X">X-IPS</option>
-            <option value="X">X-Bahasa</option>    
-          </select>
+          <input type="text" name="Kelas" class="form-control" placeholder="IX">
         </div>
-        <div class="form-group">
-          <label>Nama Orang Tua</label>
-          <input type="text" name="nama" class="form-control" placeholder="Nama OrangTua">
-        </div>
-        <div class="form-group">
-          <label>Saldo</label>
-          <input type="text" name="nama" class="form-control" placeholder="Rp.">
+          <div class="form-group">
+          <label>Biaya</label>
+          <input type="text" name="Biaya" class="form-control" placeholder="Rp. 0"><br>
+          <input type="checkbox" name="vehicle" value="Car" checked> Setuju
         </div>
       </div>
       <div class="modal-footer">
@@ -585,18 +529,20 @@
     </div>
   </div>
 </div>
+<!-- ID Bayar -->
 
 <!-- ISI DASHBOARD -->
 
+
    <!-- Footer -->
-   <div>
-    <footer class="main-footer">
+   <!-- <div> -->
+  <footer class="main-footer">
     <div class="pull-right hidden-xs">
       <b>SIMPEL.COM</b>
     </div>
     <br>
     </footer>
-  </div>
+  <!-- </div> -->
   <!-- Footer -->
 </label>
 </div>
