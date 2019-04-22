@@ -1,5 +1,8 @@
 # Simpanan Pelajar
 
+Sudah Memiliki Sertifikat Hak Kekayaan Intelektual/Hak Cipta
+Dilarang Copy
+
 Nama Kelompok :
 1. Ridho Aryo Bimo (16.11.0344)
 2. Willy Wijaya (16.11.0355)
